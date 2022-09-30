@@ -1,0 +1,10 @@
+﻿{
+  "Name": "Una",
+  "Author": "sketchbook22",
+  "Version": "0.1.0",
+  "Description": "Una",
+  "UniqueID": "sketchbook22.Una",
+  "EntryDll": "Una.dll",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": []
+}

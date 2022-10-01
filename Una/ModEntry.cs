@@ -1,4 +1,5 @@
-﻿using System;
+﻿using HarmonyLib;
+using System;
 using Microsoft.Xna.Framework;
 using StardewModdingAPI;
 using StardewModdingAPI.Events;
@@ -18,6 +19,18 @@ namespace Una
         public override void Entry(IModHelper helper)
         {
             helper.Events.Input.ButtonPressed += this.OnButtonPressed;
+            
+
+            HarmonyPatches.Initialize(Monitor);
+            var harmony = new Harmony(ModManifest.UniqueID);
+            harmony.Patch(
+               original: AccessTools.Method(typeof(Debris), "playerInRange"),
+               prefix: new HarmonyMethod(typeof(HarmonyPatches), nameof(HarmonyPatches.playerInRange_Prefix))
+            );
+            /*harmony.Patch(
+               original: AccessTools.Method(typeof(Farmer), "CanMove"),
+               prefix: new HarmonyMethod(typeof(HarmonyPatches), nameof(HarmonyPatches.CanMove))
+            );*/
         }
 
 

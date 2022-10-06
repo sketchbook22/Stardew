@@ -1,2 +1,5 @@
 # don't commit StardewValley content unpacked by StardewXnbHack
 *.png
+#Except for sample images to show what a project does.
+!sample.png
+*/!sample.png

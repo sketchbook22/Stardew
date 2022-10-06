@@ -3,12 +3,25 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "",
+    "activeFile": "C:/git/sketchbook22/Stardew/TiledConfigs/AutoMap/Walls/ExampleMap.tmx",
     "automapping.whileDrawing": false,
     "expandedProjectPaths": [
+        "."
     ],
+    "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
         "#spring_outdoorsTileSheet": {
+            "scaleInDock": 1
+        },
+        "C:/git/sketchbook22/Stardew/TiledConfigs/AutoMap/Walls/ExampleMap.tmx": {
+            "scale": 2.236458333333333,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 192.26828132277598,
+                "y": 192.26828132277598
+            }
+        },
+        "C:/git/sketchbook22/Stardew/TiledConfigs/AutoMap/Walls/ExampleMap.tmx#spring_outdoorsTileSheet": {
             "scaleInDock": 1
         },
         "ExampleMap.tmx": {
@@ -64,9 +77,11 @@
     "map.tileWidth": 16,
     "map.width": 8,
     "openFiles": [
+        "C:/git/sketchbook22/Stardew/TiledConfigs/AutoMap/Walls/ExampleMap.tmx"
     ],
     "project": "RandomGrass.tiled-project",
     "recentFiles": [
+        "C:/git/sketchbook22/Stardew/TiledConfigs/AutoMap/Walls/ExampleMap.tmx",
         "ExampleMap.tmx",
         "randomizeGrass_outdoorsTileSheet.tmx",
         "breakUpGrassStuff_outdoorsTileSheet.tmx"

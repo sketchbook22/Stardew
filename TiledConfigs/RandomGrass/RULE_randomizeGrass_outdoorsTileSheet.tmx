@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="left-down" width="3" height="1" tilewidth="16" tileheight="16" infinite="0" nextlayerid="74" nextobjectid="1">
+ <tileset firstgid="1" name="spring_outdoorsTileSheet" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
+  <image source="spring_outdoorsTileSheet.png" width="400" height="1264"/>
+ </tileset>
+ <layer id="45" name="regions" width="3" height="1">
+  <data encoding="csv">
+176,0,276
+</data>
+ </layer>
+ <layer id="46" name="input_Back" width="3" height="1">
+  <data encoding="csv">
+176,0,276
+</data>
+ </layer>
+ <layer id="44" name="outputGA_Back" width="3" height="1">
+  <data encoding="csv">
+176,0,176
+</data>
+ </layer>
+ <layer id="52" name="outputGA2_Back" width="3" height="1">
+  <data encoding="csv">
+176,0,176
+</data>
+ </layer>
+ <layer id="53" name="outputGA3_Back" width="3" height="1">
+  <data encoding="csv">
+176,0,176
+</data>
+ </layer>
+ <layer id="54" name="outputGA4_Back" width="3" height="1">
+  <data encoding="csv">
+176,0,176
+</data>
+ </layer>
+ <layer id="55" name="outputGA5_Back" width="3" height="1">
+  <data encoding="csv">
+176,0,176
+</data>
+ </layer>
+ <layer id="56" name="outputGA6_Back" width="3" height="1">
+  <data encoding="csv">
+176,0,176
+</data>
+ </layer>
+ <layer id="57" name="outputGA7_Back" width="3" height="1">
+  <data encoding="csv">
+176,0,176
+</data>
+ </layer>
+ <layer id="58" name="outputGA8_Back" width="3" height="1">
+  <data encoding="csv">
+176,0,176
+</data>
+ </layer>
+ <layer id="59" name="outputGA9_Back" width="3" height="1">
+  <data encoding="csv">
+176,0,176
+</data>
+ </layer>
+ <layer id="73" name="outputGA10_Back" width="3" height="1">
+  <data encoding="csv">
+176,0,176
+</data>
+ </layer>
+ <layer id="72" name="outputGA11_Back" width="3" height="1">
+  <data encoding="csv">
+176,0,176
+</data>
+ </layer>
+ <layer id="71" name="outputGA12_Back" width="3" height="1">
+  <data encoding="csv">
+176,0,176
+</data>
+ </layer>
+ <layer id="47" name="outputGB_Back" width="3" height="1">
+  <data encoding="csv">
+276,0,276
+</data>
+ </layer>
+ <layer id="60" name="outputGB2_Back" width="3" height="1">
+  <data encoding="csv">
+276,0,276
+</data>
+ </layer>
+ <layer id="62" name="outputGB3_Back" width="3" height="1">
+  <data encoding="csv">
+276,0,276
+</data>
+ </layer>
+ <layer id="61" name="outputGB4_Back" width="3" height="1">
+  <data encoding="csv">
+276,0,276
+</data>
+ </layer>
+ <layer id="66" name="outputGB5_Back" width="3" height="1">
+  <data encoding="csv">
+276,0,276
+</data>
+ </layer>
+ <layer id="65" name="outputGB6_Back" width="3" height="1">
+  <data encoding="csv">
+276,0,276
+</data>
+ </layer>
+ <layer id="64" name="outputGB7_Back" width="3" height="1">
+  <data encoding="csv">
+276,0,276
+</data>
+ </layer>
+ <layer id="63" name="outputGB8_Back" width="3" height="1">
+  <data encoding="csv">
+276,0,276
+</data>
+ </layer>
+ <layer id="70" name="outputGB9_Back" width="3" height="1">
+  <data encoding="csv">
+276,0,276
+</data>
+ </layer>
+ <layer id="69" name="outputGB10_Back" width="3" height="1">
+  <data encoding="csv">
+276,0,276
+</data>
+ </layer>
+ <layer id="68" name="outputGB11_Back" width="3" height="1">
+  <data encoding="csv">
+276,0,276
+</data>
+ </layer>
+ <layer id="67" name="outputGB12_Back" width="3" height="1">
+  <data encoding="csv">
+276,0,276
+</data>
+ </layer>
+ <layer id="48" name="outputW_Back" width="3" height="1">
+  <data encoding="csv">
+421,0,424
+</data>
+ </layer>
+ <layer id="49" name="outputB_Back" width="3" height="1">
+  <data encoding="csv">
+401,0,255
+</data>
+ </layer>
+ <layer id="50" name="outputL_Back" width="3" height="1">
+  <data encoding="csv">
+256,0,256
+</data>
+ </layer>
+ <layer id="51" name="outputM_Back" width="3" height="1">
+  <data encoding="csv">
+152,0,152
+</data>
+ </layer>
+</map>

@@ -3,6 +3,8 @@
 *.user
 *.userosscache
 *.sln.docstates
+*.tiled-session
+**/*.tiled-session
 
 # build results
 [Dd]ebug/

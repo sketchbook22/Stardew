@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="left-down" width="11" height="5" tilewidth="16" tileheight="16" infinite="0" nextlayerid="53" nextobjectid="1">
+ <properties>
+  <property name="DeleteTiles" type="bool" value="false"/>
+  <property name="MatchInOrder" type="bool" value="false"/>
+  <property name="NoOverlappingOutput" type="bool" value="false"/>
+ </properties>
+ <tileset firstgid="1" name="spring_outdoorsTileSheet" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
+  <image source="spring_outdoorsTileSheet.png" width="400" height="1264"/>
+ </tileset>
+ <tileset firstgid="1976" source=":/automap-tiles.tsx"/>
+ <layer id="51" name="regions_input" width="11" height="5">
+  <data encoding="csv">
+442,442,0,0,0,0,0,0,0,445,445,
+0,0,0,0,0,0,0,0,0,0,0,
+467,467,0,0,0,0,0,0,0,470,470,
+0,0,0,0,0,0,0,0,0,0,0,
+492,492,0,517,517,0,520,520,0,495,495
+</data>
+ </layer>
+ <layer id="50" name="regions_output" width="11" height="5">
+  <data encoding="csv">
+442,442,0,0,0,0,0,0,0,445,445,
+0,0,0,0,0,0,0,0,0,0,0,
+467,467,0,0,0,0,0,0,0,470,470,
+0,0,0,0,0,0,0,0,0,0,0,
+492,492,0,517,517,0,520,520,0,495,495
+</data>
+ </layer>
+ <layer id="52" name="input_Buildings" width="11" height="5">
+  <data encoding="csv">
+442,442,0,0,0,0,0,0,0,445,445,
+0,0,0,0,0,0,0,0,0,0,0,
+467,467,0,0,0,0,0,0,0,470,470,
+0,0,0,0,0,0,0,0,0,0,0,
+492,492,0,517,517,0,520,520,0,495,495
+</data>
+ </layer>
+ <layer id="49" name="output_Back" width="11" height="5">
+  <data encoding="csv">
+0,176,0,0,0,0,0,0,0,176,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,468,0,0,0,0,0,0,0,469,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,493,0,0,518,0,519,0,0,494,0
+</data>
+ </layer>
+ <layer id="48" name="output_Buildings" width="11" height="5">
+  <data encoding="csv">
+442,1979,0,0,0,0,0,0,0,1979,445,
+0,0,0,0,0,0,0,0,0,0,0,
+467,1979,0,0,0,0,0,0,0,1979,470,
+0,0,0,0,0,0,0,0,0,0,0,
+492,1979,0,517,1979,0,1979,520,0,1979,495
+</data>
+ </layer>
+</map>

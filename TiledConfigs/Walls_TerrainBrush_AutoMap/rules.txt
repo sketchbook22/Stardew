@@ -1,1 +1,2 @@
-RULE_walls_outdoorsTileSheet.tmx
+RULE_wallsBuildUp_outdoorsTileSheet.tmx
+RULE_wallsPatch_outdoorsTileSheet.tmx
